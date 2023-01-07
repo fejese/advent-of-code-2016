@@ -1,0 +1,30 @@
+cpy a d
+cpy 9 c
+cpy 282 b
+mul b c b
+add b d d
+cpy 0 b
+cpy 0 c
+noop
+cpy d a
+noop
+cpy a b
+cpy 0 a
+cpy 2 c
+jnz b 2
+jnz 1 6
+dec b
+dec c
+jnz c -4
+inc a
+jnz 1 -7
+cpy 2 b
+jnz c 2
+jnz 1 4
+dec b
+dec c
+jnz 1 -4
+noop
+out b
+jnz a -19
+jnz 1 -21
